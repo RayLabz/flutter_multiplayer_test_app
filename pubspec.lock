@@ -10,13 +10,12 @@ packages:
     source: hosted
     version: "2.13.0"
   athlos:
-    dependency: transitive
+    dependency: "direct main"
     description:
-      name: athlos
-      sha256: "60ff85c0dd1076ec01c908c97f2fbe63b995a8b2f668b83268d8a52a9776ba0d"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.2"
+      path: "../athlos_dart"
+      relative: true
+    source: path
+    version: "0.0.4"
   boolean_selector:
     dependency: transitive
     description:
